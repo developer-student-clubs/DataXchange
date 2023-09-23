@@ -23,9 +23,3 @@ jobs:
                 repo: context.repo.repo,
                 body: 'Hello, @${{github.actor}}! Thanks for opening this issue!'
             })
-            github.issues.addLabels({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                labels: ['greeted']
-            })

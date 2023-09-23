@@ -24,7 +24,8 @@ body:
       description: Please provide a step-by-step instruction to reproduce the issue.
       placeholder: Please provide a step-by-step instruction to reproduce the issue.
       value: "Steps to reproduce the issue"
-    validations: true
+    validations:
+      required: true
   - type: dropdown
     id: contribution
     attributes:
@@ -36,12 +37,14 @@ body:
         - Minor
         - Other
     validations:
-      required: true
+      required:
+        type: array
+        min: 1
   - type: checkboxes
     id: terms
     attributes:
       label: I agree to and respect the Code of Conduct
-      description: By submitting this issue, you are agree to follow our [CODE OF CONDUCT](https://github.com/rajatnai49/demo/blob/main/.github/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](https://github.com/rajatnai49/demo/blob/main/.github/CODE_OF_CONDUCT.md)
       options:
-        - label: I wil follow [CONTRIBUTING GUIDELINES](https://github.com/rajatnai49/demo/blob/main/.github/CONTRIBUTING_GUIDELINE.md)
+        - label: I will follow [CONTRIBUTING GUIDELINES](https://github.com/rajatnai49/demo/blob/main/.github/CONTRIBUTING_GUIDELINE.md)
           required: true

@@ -39,16 +39,5 @@ body:
         - HacktoberFest
         - enhancement
         - Other
-    validations: true
-  - type: markdown
-    attributes:
-      value: |
-        ### Additional information
-        - [ ] I have attached relevant screenshots or diagrams (if applicable).
-        - [ ] I have considered potential implementation ideas or solutions.
-        - [ ] I agree to and respect the project's [Code of Conduct](https://github.com/your_project/repository/blob/main/.github/CODE_OF_CONDUCT.md).
-
-        ### Related Issue (if any)
-        Please link to the issue this enhancement request is related to (if any).
-
-        Thank you for suggesting this enhancement!
+    validations:
+      required: true

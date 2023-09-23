@@ -1,0 +1,31 @@
+name: Greet and Label on a Issue Opened
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chekout repository
+        uses: actions/checkout@v2
+
+      - name: Greet
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{secrets.DEMO_TOKEN}}
+          script: |
+            github.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: 'Hello, @${{github.actor}}! Thanks for opening this issue!'
+            })
+            github.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: ['greeted']
+            })

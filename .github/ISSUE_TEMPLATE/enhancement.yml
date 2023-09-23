@@ -1,0 +1,54 @@
+name: 💫 Enhancement Request
+description: Suggest an enhancement for the project
+title: "[Enhancement]: "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ** Before you submit the enhancement request, please ensure you have checked the following: **
+        - [ ] I have searched for similar enhancement requests in the project's repository.
+        - [ ] I have checked the project's documentation and resources for troubleshooting.
+
+        Thank you for suggesting an enhancement to the project. Please fill out the following information to help us resolve the issue as quickly as possible.
+        Thank you for taking time to fill out this enhancement request!
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description
+      description: A clear and concise description of what the enhancement is.
+      placeholder: Please describe the enhancement in detail.
+      value: "Describe your enhancement here"
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 🎯 Motivation
+      description: A clear and concise description of what the motivation for the enhancement is.
+      placeholder: Please describe the motivation for the enhancement in detail.
+      value: "Describe the motivation for the enhancement here"
+    validations:
+      required: true
+  - type: dropdown
+    id: labels
+    attributes:
+      label: Select the labels that best describe this enhancement.
+      multiple: true
+      options:
+        - HacktoberFest
+        - enhancement
+        - Other
+    validations: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Additional information
+        - [ ] I have attached relevant screenshots or diagrams (if applicable).
+        - [ ] I have considered potential implementation ideas or solutions.
+        - [ ] I agree to and respect the project's [Code of Conduct](https://github.com/your_project/repository/blob/main/.github/CODE_OF_CONDUCT.md).
+
+        ### Related Issue (if any)
+        Please link to the issue this enhancement request is related to (if any).
+
+      Thank you for suggesting this enhancement!

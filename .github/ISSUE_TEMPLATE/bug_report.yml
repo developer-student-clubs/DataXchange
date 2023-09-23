@@ -1,0 +1,77 @@
+name: 🪲 Bug Report
+description: Report a bug encountered in the project
+title: "[Bug]: "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ** Before you submit a bug report, please ensure you have checked the following:  **
+        - [ ] I have searched for similar issues in the project's repository.
+        - [ ] I have reproduced the issue using the latest version of the project.
+        - [ ] I have checked the project's documentation and resources for troubleshooting.
+
+        # --------------------------------------------------------------- 
+        Thank you for reporting an issue in the project. Please fill out the following information to help us resolve the issue as quickly as possible.
+        Thank you for taking time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Please describe the issue in detail.
+      value: "Describe your bug here"
+    validations:
+      required: true
+  - type: textarea
+    id: steps_to_reproduction
+    attributes:
+      label: 🪃 Reproduction Steps
+      description: Steps to reproduce the behavior.
+      placeholder: Please describe the steps to reproduce the issue.
+      value: "Steps to reproduce the behavior:"
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: 🎯 Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: Please describe the expected behavior.
+      value: "Expected behavior:"
+    validations:
+      required: true
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: 🧔🏽‍♀️ Actual Behavior
+      description: A clear and concise description of what actually happened.
+      placeholder: Please describe the actual behavior.
+      value: "Actual behavior:"
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Select the program in which you are contributing
+      multiple: true
+      options:
+        - HacktoberFest
+        - Critical
+        - Minor
+        - Other
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Related Issue (if any)
+        - #<issue_number>
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: I agree to and respect the Code of Conduct
+      description: By submitting this issue, you are agree to follow our [CODE OF CONDUCT](https://github.com/rajatnai49/demo/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I wil follow [CONTRIBUTING GUIDELINES](https://github.com/rajatnai49/demo/blob/main/.github/CONTRIBUTING_GUIDELINE.md)
+          required: true

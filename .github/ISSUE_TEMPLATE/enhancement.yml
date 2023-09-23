@@ -4,14 +4,15 @@ title: "[Enhancement]: "
 
 body:
   - type: checkboxes
+    id: checks
     attributes:
-      value: |
-        ** Before you submit the enhancement request, please ensure you have checked the following: **
-        - [ ] I have searched for similar enhancement requests in the project's repository.
-        - [ ] I have checked the project's documentation and resources for troubleshooting.
-
-        Thank you for suggesting an enhancement to the project. Please fill out the following information to help us resolve the issue as quickly as possible.
-        Thank you for taking time to fill out this enhancement request!
+      label: I agree to and respect the Code of Conduct
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](https://github.com/rajatnai49/demo/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I have searched for similar enhancement requests in the project's repository.
+          required: false
+        - label: I have checked the project's documentation and resources for troubleshooting.
+          required: false
   - type: textarea
     id: description
     attributes:
@@ -41,3 +42,16 @@ body:
         - Other
     validations:
       required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: I agree to and respect the Code of Conduct
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](https://github.com/rajatnai49/demo/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I will follow [CONTRIBUTING GUIDELINES](https://github.com/rajatnai49/demo/blob/main/.github/CONTRIBUTING_GUIDELINE.md)
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an enhancement to the project. Please fill out the following information to help us resolve the issue as quickly as possible.
+        Thank you for taking time to fill out this enhancement request!

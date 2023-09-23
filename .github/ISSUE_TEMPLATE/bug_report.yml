@@ -4,16 +4,17 @@ title: "[Bug]: "
 
 body:
   - type: checkboxes
+    id: checks
     attributes:
-      value: |
-        ** Before you submit a bug report, please ensure you have checked the following:  **
-        - [ ] I have searched for similar issues in the project's repository.
-        - [ ] I have reproduced the issue using the latest version of the project.
-        - [ ] I have checked the project's documentation and resources for troubleshooting.
-
-        # --------------------------------------------------------------- 
-        Thank you for reporting an issue in the project. Please fill out the following information to help us resolve the issue as quickly as possible.
-        Thank you for taking time to fill out this bug report!
+      label: I agree to and respect the Code of Conduct
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](https://github.com/rajatnai49/demo/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I have searched for similar issues in the project's repository.
+          required: false
+        - label: I have reproduced the issue using the latest version of the project.
+          required: false
+        - label: I have checked the project's documentation and resources for troubleshooting.
+          required: false
   - type: textarea
     id: description
     attributes:
@@ -75,3 +76,8 @@ body:
       options:
         - label: I wil follow [CONTRIBUTING GUIDELINES](https://github.com/rajatnai49/demo/blob/main/.github/CONTRIBUTING_GUIDELINE.md)
           required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an enhancement to the project. Please fill out the following information to help us resolve the issue as quickly as possible.
+        Thank you for taking time to fill out this enhancement request!s

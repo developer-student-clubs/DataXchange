@@ -6,8 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for requesting data analysis on a dataset. Please provide the following information to help us understand your analysis needs.
-        Your contribution to this project is appreciated!
+        Thank you for requesting data analysis on a dataset. Please provide the following information to help us understand your analysis needs. Your contribution to this project is appreciated!
   - type: textarea
     id: description
     attributes:
@@ -48,14 +47,16 @@ body:
       options:
         - label: I will also follow [CONTRIBUTING GUIDELINES](https://github.com/rajatnai49/demo/blob/main/.github/CONTRIBUTING_GUIDELINE.md)
           required: true
-  - type: markdown
+  - type: upload
+    id: dataset_files
     attributes:
-      value: |
-        ### Data Upload
-        Please upload the dataset file(s) here. If you have multiple files, consider compressing them into a ZIP archive.
-
-        ### Additional Information
-        - Deadline (if applicable):
-        - Any other relevant information:
-
-        Thank you for your contribution request!
+      label: 📂 Upload Dataset Files
+      description: Please upload the dataset file(s) here. If you have multiple files, consider compressing them into a ZIP archive.
+    validations:
+      required: true
+  - type: text
+    id: deadline
+    attributes:
+      label: ⏰ Deadline (if applicable)
+      description: Specify the deadline for this analysis request (if applicable).
+      placeholder: Enter the deadline in YYYY-MM-DD format.

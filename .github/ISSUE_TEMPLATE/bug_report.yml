@@ -3,7 +3,7 @@ description: Report a bug encountered in the project
 title: "[Bug]: "
 
 body:
-  - type: markdown
+  - type: checkboxes
     attributes:
       value: |
         ** Before you submit a bug report, please ensure you have checked the following:  **

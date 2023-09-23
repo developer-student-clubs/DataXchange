@@ -3,7 +3,7 @@ description: Suggest an enhancement for the project
 title: "[Enhancement]: "
 
 body:
-  - type: markdown
+  - type: checkboxes
     attributes:
       value: |
         ** Before you submit the enhancement request, please ensure you have checked the following: **

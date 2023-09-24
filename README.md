@@ -10,7 +10,7 @@
 ## Join Our 🤹🏽 Community
 
 <p align="center">
-  <a href="https://discord.gg/your-discord-link">
+  <a href="https://discord.gg/">
     <img src="https://img.shields.io/badge/Join%20Us%20on%20Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
 </p>

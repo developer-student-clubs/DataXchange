@@ -18,11 +18,11 @@
 ## Project Stats
 
 <p align="center">
-  <img src="https://img.shields.io/github/issues/rajatnai49/demo?style=for-the-badge" alt="GitHub issues" />
-  <img src="https://img.shields.io/github/forks/rajatnai49/demo?style=for-the-badge" alt="GitHub forks" />
-  <img src="https://img.shields.io/github/issues-pr/rajatnai49/demo?style=for-the-badge" alt="GitHub pull requests" />
-  <img src="https://img.shields.io/github/stars/rajatnai49/demo?style=for-the-badge" alt="GitHub Repo stars" />
-  <img src="https://img.shields.io/github/contributors/rajatnai49/demo?style=for-the-badge" alt="GitHub contributors" />
+  <img src="https://img.shields.io/github/issues/rajatnai49/DataXchange?style=for-the-badge" alt="GitHub issues" />
+  <img src="https://img.shields.io/github/forks/rajatnai49/DataXchange?style=for-the-badge" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/issues-pr/rajatnai49/DataXchange?style=for-the-badge" alt="GitHub pull requests" />
+  <img src="https://img.shields.io/github/stars/rajatnai49/DataXchange?style=for-the-badge" alt="GitHub Repo stars" />
+  <img src="https://img.shields.io/github/contributors/rajatnai49/DataXchange?style=for-the-badge" alt="GitHub contributors" />
 </p>
 
 ## Tech Stack
@@ -92,7 +92,7 @@ DataXchange Pro is licensed under the [MIT License](https://opensource.org/licen
 
 We appreciate the dedication of all our contributors in making DataXchange Pro a success. You can view our list of contributors 
 <center>
-<a href="https://github.com/rajatnai49/demo/graphs/contributors">
+<a href="https://github.com/rajatnai49/DataXchange/graphs/contributors">
   <img src="https://img.shields.io/github/contributors/rajatnai49/demo?style=for-the-badge" alt="GitHub contributors" />
 </a>
 </center>

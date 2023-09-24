@@ -7,7 +7,7 @@
 
 ## Welcome to DataXchange
 
-DataXchange Pro is an advanced open-source platform that empowers data enthusiasts and developers to collaborate on data-driven projects. We're committed to turning raw datasets into valuable insights, visualizations, and applications.
+DataXchange is an advanced open-source platform that empowers data enthusiasts and developers to collaborate on data-driven projects. We're committed to turning raw datasets into valuable insights, visualizations, and applications.
 
 ### Join Our Community
 

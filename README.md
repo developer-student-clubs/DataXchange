@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Godot-Dark.svg" alt="Dataset Icon" width="100" height="100" />
-  <h1 style="font-weight: bold;">DataXchange Pro</h1>
+  <h1 style="font-weight: bold;">DataXchange</h1>
 </p>
 
 ---

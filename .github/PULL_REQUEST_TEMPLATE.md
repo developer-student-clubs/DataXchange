@@ -1,0 +1,31 @@
+## PR Description 📜
+
+Please include a summary related to the issue you have fixed and describe your PR in brief over here by specifying the issue number on which you were working below
+Fixes # <your_issue_number>
+
+<hr>
+
+## Mark the task you have completed ✅
+
+<!----Please delete options that are not relevant. In order to tick the check box just but x inside them for example [x] like this----->
+
+- [ ] I follow [CONTRIBUTING GUIDELINE](https://github.com/rajatnai49/DataXchange/blob/main/.github/CONTRIBUTING_GUIDELINE.md) & [CODE OF CONDUCT](https://github.com/rajatnai49/DataXchange/blob/main/.github/CODE_OF_CONDUCT.md) of this project.
+- [ ] I have performed a self-review of my own code or work.
+- [ ] I have commented on my code, particularly in hard-to-understand areas.
+- [ ] My changes generate no new warnings.
+- [ ] I have followed the proper naming convention shown in [CONTRIBUTING GUIDELINE](https://github.com/rajatnai49/DataXchange/blob/main/.github/CONTRIBUTING_GUIDELINE.md)
+- [ ] I have added the accuracy at the end of the notebook
+- [ ] I have added all README.md files which are specified in the [CONTRIBUTING GUIDELINE](https://github.com/rajatnai49/DataXchange/blob/main/.github/CONTRIBUTING_GUIDELINE.md)'s file structures section
+- [ ] I have specified the respective issue number
+
+
+<hr>
+
+## Add your screenshots(Optional) 📸
+
+
+
+--- 
+<br>
+
+## Thank you soo much for contributing to our repository 💗

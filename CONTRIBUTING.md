@@ -17,15 +17,18 @@ in case you are stuck:
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 - [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
 
-<br>
+<be>
+
 ## **Issue Report Process 📌**
+
 1. Go to the project's issues.
 2. Select the template that better fits your issue.
 3. Give a proper description of the issues.
 4. Don't spam to get the assignment of the issue 😀.
 5. Wait for till someone is looking into it!
 6. Start working on the issue only after you get assigned that issue 🚀.
-<br>
+   
+<be>
 
 ## **File naming conventions 📁**
 

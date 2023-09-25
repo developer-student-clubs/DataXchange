@@ -1,6 +1,6 @@
 ## PR Description 📜
 
-Fixes # <your_issue_number>
+Fixes #<your_issue_number>
 
 ## Mark the task you have completed ✅
 

@@ -37,9 +37,7 @@ body:
         - minor
         - other
     validations:
-      required:
-        type: array
-        min: 1
+      required: true
   - type: checkboxes
     id: terms
     attributes:

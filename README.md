@@ -37,30 +37,36 @@ DataXchange Pro leverages a powerful tech stack to handle data processing, analy
 <p>
   
 <div align="center">
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-blue.svg" alt="Python Icon"></a>
-  <a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/R-green.svg" alt="R Icon"></a>
-  <a href="https://julialang.org/"><img src="https://img.shields.io/badge/Julia-red.svg" alt="Julia Icon"></a>
-  <a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/Scala-yellow.svg" alt="Scala Icon"></a>
-  <a href="https://www.sql.org/"><img src="https://img.shields.io/badge/SQL-purple.svg" alt="SQL Icon"></a>
-  <a href="https://numpy.org/"><img src="https://img.shields.io/badge/NumPy-orange.svg" alt="NumPy Icon"></a>
-  <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-lightblue.svg" alt="Pandas Icon"></a>
-  <a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/scikit-learn-yellowgreen.svg" alt="scikit-learn Icon"></a>
-  <a href="https://www.tensorflow.org/"><img src="https://img.shields.io/badge/TensorFlow-orange.svg" alt="TensorFlow Icon"></a>
-  <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-red.svg" alt="PyTorch Icon"></a>
-  <a href="https://cloud.google.com/"><img src="https://img.shields.io/badge/Google%20Cloud%20Platform-blue.svg" alt="Google Cloud Platform Icon"></a>
-  <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/Amazon%20Web%20Services-orange.svg" alt="Amazon Web Services Icon"></a>
-  <a href="https://azure.microsoft.com/"><img src="https://img.shields.io/badge/Microsoft%20Azure-blue.svg" alt="Microsoft Azure Icon"></a>
-  <a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/Hadoop-yellow.svg" alt="Hadoop Icon"></a>
-  <a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/Spark-yellow.svg" alt="Spark Icon"></a>
-  <a href="https://hive.apache.org/"><img src="https://img.shields.io/badge/Hive-lightorange.svg" alt="Hive Icon"></a>
-  <a href="https://www.tableau.com/"><img src="https://img.shields.io/badge/Tableau-blue.svg" alt="Tableau Icon"></a>
-  <a href="https://powerbi.microsoft.com/"><img src="https://img.shields.io/badge/Power%20BI-green.svg" alt="Power BI Icon"></a>
-  <a href="https://www.qlik.com/"><img src="https://img.shields.io/badge/Qlik%20Sense-blue.svg" alt="Qlik Sense Icon"></a>
-  <a href="https://en.wikipedia.org/wiki/Decision_tree_learning"><img src="https://img.shields.io/badge/Decision%20Trees-green.svg" alt="Decision Trees Icon"></a>
-  <a href="https://en.wikipedia.org/wiki/Random_forest"><img src="https://img.shields.io/badge/Random%20Forests-lightgreen.svg" alt="Random Forests Icon"></a>
-  <a href="https://en.wikipedia.org/wiki/Support_vector_machine"><img src="https://img.shields.io/badge/Support%20Vector%20Machines-yellow.svg" alt="Support Vector Machines Icon"></a>
-  <a href="https://en.wikipedia.org/wiki/Artificial_neural_network"><img src="https://img.shields.io/badge/Neural%20Networks-red.svg" alt="Neural Networks Icon"></a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python Icon">
+  </a>
+  <a href="https://www.r-project.org/">
+    <img src="https://img.shields.io/badge/R-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="R Icon">
+  </a>
+  <a href="https://www.tensorflow.org/">
+    <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow Icon">
+  </a>
+  <a href="https://pytorch.org/">
+    <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch Icon">
+  </a>
+  <a href="https://scikit-learn.org/">
+    <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn Icon">
+  </a>
+  <a href="https://pandas.pydata.org/">
+    <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas Icon">
+  </a>
+  <a href="https://numpy.org/">
+    <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy Icon">
+  </a>
+  <a href="https://matplotlib.org/">
+    <img src="https://img.shields.io/badge/Matplotlib-%230076D6.svg?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib Icon">
+  </a>
+  <a href="https://seaborn.pydata.org/">
+    <img src="https://img.shields.io/badge/Seaborn-%239969FF.svg?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn Icon">
+  </a>
 </div>
+
+
 
   
 </p>
@@ -92,9 +98,10 @@ DataXchange Pro is licensed under the [MIT License](https://opensource.org/licen
 
 We appreciate the dedication of all our contributors in making DataXchange Pro a success. You can view our list of contributors 
 <center>
-<a href="https://github.com/rajatnai49/DataXchange/graphs/contributors">
-  <img src="https://img.shields.io/github/contributors/rajatnai49/demo?style=for-the-badge" alt="GitHub contributors" />
+  <a href="https://github.com/rajatnai49/DataXchange/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rajatnai49/DataXchange" />
 </a>
 </center>
+
 
 <p align="right"><a href="#top">Back to top</a></p>

@@ -57,10 +57,10 @@ body:
       label: Select the program in which you are contributing
       multiple: true
       options:
-        - HacktoberFest
-        - Critical
-        - Minor
-        - Other
+        - hacktoberfest
+        - critical
+        - minor
+        - other
     validations:
       required: true
   - type: markdown

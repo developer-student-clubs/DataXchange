@@ -9,17 +9,16 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-      - name: Chekout repository
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Greet
+      - name: Add Labels
         uses: actions/github-script@v4
         with:
-          github-token: ${{secrets.DEMO_TOKEN}}
           script: |
-            github.issues.createComment({
-                issue_number: context.issue.number,
+            github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                body: 'Hello, @${{github.actor}}! Thanks for opening this issue! We '
-            })
+                issue_number: context.issue.number,
+                labels: ["hacktoberfest"]
+            });

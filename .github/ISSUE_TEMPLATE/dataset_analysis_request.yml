@@ -26,17 +26,17 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: analysis_type
+    id: contribution
     attributes:
       label: 📈 Analysis Type
       description: Select the type of analysis you require.
       multiple: true
       options:
-        - HacktoberFest
-        - Descriptive Statistics
-        - Data Visualization
-        - Machine Learning
-        - Other (please specify in the description)
+        - hacktoberfest
+        - descriptive statistics
+        - data visualization
+        - machine learning
+        - other (please specify in the description)
     validations:
       required: true
   - type: textarea

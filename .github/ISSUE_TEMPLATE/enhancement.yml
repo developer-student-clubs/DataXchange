@@ -32,14 +32,14 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: labels
+    id: contribution
     attributes:
       label: Select the labels that best describe this enhancement.
       multiple: true
       options:
-        - HacktoberFest
+        - hacktoberfest
         - enhancement
-        - Other
+        - other
     validations:
       required: true
   - type: checkboxes

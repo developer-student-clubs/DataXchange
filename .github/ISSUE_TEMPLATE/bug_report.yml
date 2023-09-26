@@ -7,7 +7,7 @@ body:
     id: checks
     attributes:
       label: I agree to and respect the Code of Conduct
-      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](https://github.com/rajatnai49/demo/blob/main/.github/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you are agreeing to follow our [CODE OF CONDUCT](../blob/main/.github/CODE_OF_CONDUCT.md)
       options:
         - label: I have searched for similar issues in the project's repository.
           required: false
@@ -72,9 +72,9 @@ body:
     id: terms
     attributes:
       label: I agree to and respect the Code of Conduct
-      description: By submitting this issue, you are agree to follow our [CODE OF CONDUCT](https://github.com/rajatnai49/demo/blob/main/.github/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you are agree to follow our [CODE OF CONDUCT](../blob/main/.github/CODE_OF_CONDUCT.md)
       options:
-        - label: I wil follow [CONTRIBUTING GUIDELINES](https://github.com/rajatnai49/demo/blob/main/.github/CONTRIBUTING_GUIDELINE.md)
+        - label: I wil follow [CONTRIBUTING GUIDELINES](../blob/main/.github/CONTRIBUTING_GUIDELINE.md)
           required: true
   - type: markdown
     attributes:

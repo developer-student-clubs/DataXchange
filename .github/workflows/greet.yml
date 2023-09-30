@@ -23,15 +23,3 @@ jobs:
               repo: context.repo.repo,
               body: 'Hello, @${{ github.actor }}! Thanks for opening this issue! '
             })
-
-      - name: Add Label
-        uses: actions/github-script@v4
-        with:
-          github-token: ${{ secrets.DEMO_TOKEN }}
-          script: |
-            github.issues.addLabels({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              labels: ['hacktoberfest'] 
-            })

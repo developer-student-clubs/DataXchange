@@ -1,0 +1,59 @@
+name: Label on Issue Open
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  label_on_issue_open:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Add Labels
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.DEMO_TOKEN }}
+          script: |
+            const issueBody = context.payload.issue.body.toLowerCase();
+            const addLabels = (labels) => {
+              github.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: labels
+              });
+            }
+            if (issueBody.includes('hacktoberfest')) {
+              addLabels(['hacktoberfest']);
+            }
+
+            if (issueBody.includes('critical')) {
+              addLabels(['critical']);
+            }
+
+            if (issueBody.includes('minor')) {
+              addLabels(['minor']);
+            }
+
+            if (issueBody.includes('enhancement')) {
+              addLabels(['enhancement']);
+            }
+
+            if (issueBody.includes('descriptive statistics')) {
+              addLabels(['descriptive-statistics']);
+            }
+
+            if (issueBody.includes('data visualization')) {
+              addLabels(['data-visualization']);
+            }
+
+            if (issueBody.includes('machine learning')) {
+              addLabels(['machine-learning']);
+            }
+
+            if (issueBody.includes('other')) {
+              addLabels(['other']);
+            }

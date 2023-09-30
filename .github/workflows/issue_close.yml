@@ -1,0 +1,25 @@
+name: Farewell on an Issue Closed
+
+on:
+  issues:
+    types:
+      - closed
+
+jobs:
+  farewell:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Farewell
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.DEMO_TOKEN }}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Goodbye, @${{ github.actor }}! Thanks for your contributions and for closing this issue. If you have more questions or encounter other issues, feel free to reach out!'
+            })

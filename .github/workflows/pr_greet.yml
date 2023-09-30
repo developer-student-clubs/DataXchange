@@ -1,0 +1,25 @@
+name: Welcome on PR Open
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  welcome_on_pr_open:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Welcome Comment
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.DEMO_TOKEN }}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Welcome, @${{ github.actor }}! Thanks for opening this pull request. We appreciate your contribution. If you have any questions or need assistance, feel free to ask!'
+            })

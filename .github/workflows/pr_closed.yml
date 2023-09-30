@@ -1,0 +1,33 @@
+name: PR Closure
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if PR is merged
+        id: check_pr
+        run: |
+          if [ "${{ github.event.pull_request.merged }}" = "true" ]; then
+            echo "::set-output name=pr_status::merged"
+            echo "::set-output name=contributor::${{ github.event.pull_request.user.login }}"
+          else
+            echo "::set-output name=pr_status::not_merged"
+            echo "::set-output name=contributor::${{ github.event.pull_request.user.login }}"
+          fi
+
+      - name: Post Discord Message
+        if: always()
+        run: |
+          contributor="${{ steps.check_pr.outputs.contributor }}"
+          if [ "${{ steps.check_pr.outputs.pr_status }}" = "merged" ]; then
+            message=":tada: The pull request from @$contributor was successfully merged! Thank you for your contribution. Join our Discord server to connect with the community: [Discord](https://discord.gg/mv4NTzN)"
+          else
+            message=":cry: Unfortunately, the pull request from @$contributor was not merged. We appreciate your contribution! Join our Discord server to connect with the community: [Discord](https://discord.gg/mv4NTzN)"
+          fi
+          echo "$message"

@@ -5,7 +5,19 @@
 
 ## Welcome to 📈 DataXchange
 
-<strong> DataXchange is an advanced open-source platform that empowers data enthusiasts and developers to collaborate on data-driven projects. We're committed to turning raw datasets into valuable insights, visualizations, and applications.  </strong>
+<strong> DataXchange is an advanced open-source platform that empowers data enthusiasts and developers to collaborate on data-driven projects. We're committed to turning raw datasets into valuable insights, visualizations, and applications. </strong>
+
+## What we do?
+
+#### Steps to become part of us !
+
+1. Open issue or select issue on which you want to work
+2. We assign that issue to you if we have surety that you have enough skills to solve that issue
+3. Fork the repo
+4. Make a named branch according to it and start working on the issue
+5. Ask for PR merge
+6. And if everything goes well we We will merge your PR
+7. Wallah! Now you are the part of DataXchange
 
 ## Join Our 🤹🏽 Community
 
@@ -66,9 +78,6 @@ DataXchange Pro leverages a powerful tech stack to handle data processing, analy
   </a>
 </div>
 
-
-
-  
 </p>
 </center>
 <br>
@@ -91,17 +100,20 @@ Read our [Contributing Guidelines](./.github/CONTRIBUTING_GUIDELINE.md) to under
 We maintain a strict [Code of Conduct](./.github/CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive community. Please familiarize yourself with our code of conduct before participating.
 
 ## License
- [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 - Terms and conditions for use, reproduction, and distribution are under the [MIT License](https://opensource.org/licenses/MIT).
-DataXchange Pro is licensed under the [MIT License](https://opensource.org/licenses/MIT). You can find the full terms and conditions for use, reproduction, and distribution in the license file.
+  DataXchange Pro is licensed under the [MIT License](https://opensource.org/licenses/MIT). You can find the full terms and conditions for use, reproduction, and distribution in the license file.
+
 ## Contributors
 
-We appreciate the dedication of all our contributors in making DataXchange Pro a success. You can view our list of contributors 
+We appreciate the dedication of all our contributors in making DataXchange Pro a success. You can view our list of contributors
+
 <center>
   <a href="https://github.com/rajatnai49/DataXchange/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rajatnai49/DataXchange" />
 </a>
 </center>
-
 
 <p align="right"><a href="#top">Back to top</a></p>

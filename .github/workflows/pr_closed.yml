@@ -8,26 +8,28 @@ on:
 jobs:
   comment:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check if PR is merged
-        id: check_pr
-        run: |
-          if [ "${{ github.event.pull_request.merged }}" = "true" ]; then
-            echo "::set-output name=pr_status::merged"
-            echo "::set-output name=contributor::${{ github.event.pull_request.user.login }}"
-          else
-            echo "::set-output name=pr_status::not_merged"
-            echo "::set-output name=contributor::${{ github.event.pull_request.user.login }}"
-          fi
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - name: Post Discord Message
-        if: always()
-        run: |
-          contributor="${{ steps.check_pr.outputs.contributor }}"
-          if [ "${{ steps.check_pr.outputs.pr_status }}" = "merged" ]; then
-            message=":tada: The pull request from @$contributor was successfully merged! Thank you for your contribution. Join our Discord server to connect with the community: [Discord](https://discord.gg/mv4NTzN)"
-          else
-            message=":cry: Unfortunately, the pull request from @$contributor was not merged. We appreciate your contribution! Join our Discord server to connect with the community: [Discord](https://discord.gg/mv4NTzN)"
-          fi
-          echo "$message"
+      - name: Check if PR is merged
+        id: check_merged
+        run: echo "::set-output name=is_merged::$(if [ \"${{ github.event.pull_request.merged }}\" == "true" ]; then echo "true"; else echo "false"; fi)"
+
+      - name: Comment on PR
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.DEMO_TOKEN }}
+          script: |
+            if [ "${{ steps.check_merged.outputs.is_merged }}" == "true" ]; then
+              comment_body='Thank you, @${{ github.actor }}! Your pull request has been merged.'
+            else
+              comment_body='Thanks, @${{ github.actor }}! Unfortunately, your pull request was closed without being merged. If you have any questions or need further assistance, feel free to ask.'
+            fi
+
+            github.issues.createComment({
+              issue_number: github.event.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment_body
+            })

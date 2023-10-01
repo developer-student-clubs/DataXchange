@@ -18,7 +18,7 @@ jobs:
           github-token: ${{ secrets.DEMO_TOKEN }}
           script: |
             github.issues.createComment({
-              issue_number: context.issue.number,
+              issue_number: github.event.number,  
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: 'Welcome, @${{ github.actor }}! Thanks for opening this pull request. We appreciate your contribution. If you have any questions or need assistance, feel free to ask!'

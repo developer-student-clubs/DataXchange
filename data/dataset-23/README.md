@@ -1,0 +1,1 @@
+For a machine learning-based grocery data analysis project, essential datasets should include sales transactions, product details, customer demographics, and seasonal trends. These datasets enable predictive modeling, demand forecasting, and personalized shopping recommendations.

@@ -1,2 +1,1 @@
-- The jupyter notebook includes analyzing the dataset by identifying patterns, trends, and correlations that can help retailers optimize their marketing, pricing, and product strategies to increase sales and revenue.
-- The dataset is a generic one with around 10K entries and 11 columns, and is meant to be used as a practice dataset.
+A machine learning-based grocery data analysis project utilizes algorithms to analyze shopping patterns, optimize inventory, and provide personalized recommendations. It enhances the shopping experience and streamlines operations for retailers while improving customer satisfaction.
